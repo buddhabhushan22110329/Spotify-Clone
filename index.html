@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container1">
+        <div class="spicon"><img src="images/logo.png" Spotify alt="Spotify"> Spotify </div>
+
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Search</li>
+                <li>Your Library</li>
+                <li>Create Playlist</li>
+                <li>Liked Songs</li>
+            </ul>
+        </nav>
+    </div>
+
+     <div class="container2">
+        <h1>My Playlist</h1>
+        <div class="songlist">
+            Kar Har Maidaan Fateh - [Sanju]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="timestamp"> 5:00<i id="firstsong" class="far songItemPlay fa-play-circle"></i> </span>
+        </div>
+        <div class="songlist">
+            Bint-e-Dil - [Padmaavat]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="timestamp"> 4:40<i id="secondsong" class="far songItemPlay fa-play-circle"></i> </span>
+        </div>
+        <div class="songlist">
+            Sultan - Title Song&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="timestamp"> 4:38<i id="thirdsong" class="far songItemPlay fa-play-circle"></i> </span>
+        </div>
+        <div class="songlist">    
+            Lut Gaye&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="timestamp"> 3:48<i id="fourthsong" class="far songItemPlay fa-play-circle"></i> </span>
+        </div>
+        <div class="songlist">
+            Give Me Some Sunshine - [3 Idiots]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="timestamp"> 4:14<i id="fifthsong" class="far songItemPlay fa-play-circle"></i> </span>
+        </div>
+        <div class="songlist">
+            Kabir Singh BGM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="timestamp"> 3:26<i id="sixthsong" class="far songItemPlay fa-play-circle"></i> </span>
+        </div>
+    </div>
+    
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+            <i class="fas fa-3x fa-step-backward" id="previous"></i>
+            <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fas fa-3x fa-step-forward" id="next"></i> 
+        </div>
+        <div class="songInfo">
+            <img src="images/playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Enjoy the music while it lasts.
+            </span>
+    </div>
+    </div>
+    <div class="last">hello world</div>
+
+    <script src="https://kit.fontawesome.com/26504e4a1f.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+</html>
